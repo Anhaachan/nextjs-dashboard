@@ -63,3 +63,26 @@ Setting up databases
 
 1. Import project from github in `vercel`.
 2. Create Database in vercel using `serverless postgres by **Neon**`
+3. Seed database wiht nextjs `Route Handlers`
+
+# Chapter 7
+Fetching Data
+
+- Choosing how to fetch data
+
+1. API Layer
+- In Next.js, you can create API endpoints using Route Handlers.
+
+2. Database queries
+- When you're creating a full-stack application, you'll also need to write logic to interact with your database
+
+3. Using Server Components to fetch data
+
+4. Using SQL
+- write database queries using the Vercel Postgres SDK and SQL. 
+
+! Static Rendering
+
+# Chapter 8
+Static and Dynamic Rendering
+
