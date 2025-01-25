@@ -50,3 +50,16 @@ Creating Layouts and Pages
 One benefit of using layouts in Next.js is that on navigation, only the page components update while the layout **won't re-render.**
 
 > purpose of the layout file is to share UI across multiple pages
+
+--------
+# Chapter 5
+Navigating between pages
+
+- Automatic code-splitting and prefetching
+- using 'Link' component nextjs can route throught the pages. most important is when you use 'Link' in your page then nextjs will prefetches data in the client and show that page instantly.
+
+# Chapter 6
+Setting up databases
+
+1. Import project from github in `vercel`.
+2. Create Database in vercel using `serverless postgres by **Neon**`
