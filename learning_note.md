@@ -86,3 +86,10 @@ Fetching Data
 # Chapter 8
 Static and Dynamic Rendering
 
+- Simulating a Slow Data Fetch
+With dynamic rendering, **application is only as fast as your slowest data fetch.**
+
+# Chapter 9
+Streaming
+
+- advantages of streaming is : chunks are rendered in parallel, reducing the overall loadtime.
