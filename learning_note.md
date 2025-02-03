@@ -94,3 +94,5 @@ Streaming
 
 - advantages of streaming is : chunks are rendered in parallel, reducing the overall loadtime.
 - Move data fetches down to the components that need it is good practice when working with Suspense and data fetching
+=======
+- adding skeleton to page for loading
