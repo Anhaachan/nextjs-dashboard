@@ -93,3 +93,4 @@ With dynamic rendering, **application is only as fast as your slowest data fetch
 Streaming
 
 - advantages of streaming is : chunks are rendered in parallel, reducing the overall loadtime.
+- adding skeleton to page for loading
