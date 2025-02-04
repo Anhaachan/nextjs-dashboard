@@ -94,5 +94,21 @@ Streaming
 
 - advantages of streaming is : chunks are rendered in parallel, reducing the overall loadtime.
 - Move data fetches down to the components that need it is good practice when working with Suspense and data fetching
-=======
 - adding skeleton to page for loading
+
+# Chapter 10
+Partial Prerendering
+
+- Partial Prerendering is an experimental feature introduced in Next.js 14. **PPR is only available with the Next.js canary releases (next@canary),**
+- Partial Prerendering - is a new rendering model that allows you to combine the benefits of static and dynamic rendering in the same routes.
+
+
+> Previuos chapter's recap will go here.
+---------
+
+> Ah, shit here we go again.
+
+# Chapter 11
+Adding Search and Pagination
+
+- 
