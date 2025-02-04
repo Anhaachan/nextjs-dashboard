@@ -111,4 +111,16 @@ Partial Prerendering
 # Chapter 11
 Adding Search and Pagination
 
-- 
+- ## Why use URL search params?
+ This pattern may be new if you're used to doing it with client side state.
+
+There are a couple of benefits of implementing search with URL params:
+
+- Bookmarkable and shareable URLs: Since the search parameters are in the URL, users can bookmark the current state of the application, including their search queries and filters, for future reference or sharing.
+- Server-side rendering: URL parameters can be directly consumed on the server to render the initial state, making it easier to handle server rendering.
+- Analytics and tracking: Having search queries and filters directly in the URL makes it easier to track user behavior without requiring additional client-side logic.
+
+
+- handled search and pagination with URL search parameters instead of client state.
+-  fetched data on the server.
+- useRouter router hook for smoother, client-side transitions.
