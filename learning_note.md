@@ -124,3 +124,11 @@ There are a couple of benefits of implementing search with URL params:
 - handled search and pagination with URL search parameters instead of client state.
 -  fetched data on the server.
 - useRouter router hook for smoother, client-side transitions.
+
+# Chapter 12
+Mutating data
+
+- CRUD
+- React server actions
+- FormData object
+- revalidatePath API
