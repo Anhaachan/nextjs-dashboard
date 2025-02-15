@@ -135,3 +135,16 @@ Mutating data
 
 # Chapter 13
 > ah shit here we go again.
+
+Handling Data
+
+- error.tsx for catch-all for unexpected errors
+- not-found.tsx or 404.tsx 
+
+# Chapter 14 
+Improving Accessibility
+
+i think ya already know that accessibility for web
+- Using the ESLint accessibility plugin in Next.js
+
+ eslint-plugin-jsx-a11y- help catch accessibility issues.
