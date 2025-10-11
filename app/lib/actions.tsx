@@ -12,7 +12,7 @@ const FormSchema = z.object({
   customerId: z.string({
     invalid_type_error: 'Please select a customer',
   }),
-  amount: z.coerce.number()
+  amount: z.coerce
   .number()
   .gt(0, {message: 'Please enter an amount greater than $0.' }),
   status: z.enum(['pending', 'paid'], {
@@ -108,4 +108,9 @@ export async function updateInvoice(
  
   revalidatePath('/dashboard/invoices');
   redirect('/dashboard/invoices');
+}
+
+export async function deleteInvoice(id: string) {
+  await sql`DELETE FROM invoices WHERE id = ${id}`;
+  revalidatePath('/dashboard/invoices');
 }
