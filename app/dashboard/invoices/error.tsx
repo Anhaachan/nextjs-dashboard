@@ -9,6 +9,7 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  // TODO: eslint  
   useEffect(() => {
     // Optionally log the error to an error reporting service
     console.error(error);
